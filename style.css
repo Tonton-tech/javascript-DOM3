@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+    font-family: serif;
+}
+
+body {
+min-height: 240vh;
+text-align: center;
+color: white;
+margin: 0;
+}
+
+.box {
+transition: 0.35s ease;
+background-color: black;
+padding: 10px;
+border: 5px solid white;
+}
+
+p {
+visibility: hidden;
+margin: 10px auto 0;
+width: 240px;
+
+}
+
+.mousemove {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50px;
+    border: 3px solid teal;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+}
